@@ -7,6 +7,11 @@
 	<packaging>pom</packaging>
 	<name>cursus</name>
 	<description>Race series management program</description>
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>
 	<url>http://cursus.lp0.eu/</url>
 	<licenses>
 		<license>
