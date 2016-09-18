@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>eu.lp0.cursus</groupId>
+	<groupId>uk.uuid.cursus</groupId>
 	<artifactId>cursus</artifactId>
 	<version>0</version>
 	<packaging>pom</packaging>
@@ -21,7 +21,7 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:git:git://github.com/lp0/cursus.git</connection>
+		<connection>scm:git:https://github.com/lp0/cursus.git</connection>
 		<url>https://github.com/lp0/cursus/</url>
 	</scm>
 	<organization>
