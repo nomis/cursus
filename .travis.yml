@@ -1,7 +1,1 @@
 language: java
-notifications:
-  irc:
-    channels:
-    - "irc.imaginarynet.uk#ci"
-    skip_join: true
-
