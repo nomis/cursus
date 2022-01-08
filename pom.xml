@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>uk.uuid.cursus</groupId>
 	<artifactId>cursus</artifactId>
-	<version>0</version>
+	<version>0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>cursus</name>
 	<description>Race series management program</description>
@@ -23,6 +23,12 @@
 		<connection>scm:git:https://github.com/nomis/cursus.git</connection>
 		<url>https://github.com/nomis/cursus/</url>
 	</scm>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>s85-snapshots</id>
+			<url>https://maven.s85.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<organization>
 		<name>Simon Arlott</name>
 	</organization>
